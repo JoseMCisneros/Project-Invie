@@ -1,50 +1,28 @@
-body{
-  background: peru;
+.titulo {
+  font-size: 70px;
 }
 
-/*tipo de selector{propiedad: valor;propiedad2: valor;}*/
-
-* {                       /* el asterisco * se utiliza para denotar un selector universal */
-  border: 1px solid red;
-  margin: 10px;
+.title-a {
+  font-size: 24px;
+}
+.title-b {
+  font-size: 50px;
 }
 
-header{           /*selector de etiqueta*/
-  background: blue;
+.guitarras {
+  color: #1F313C;
 }
 
-section{           /*selector de etiqueta*/
-  background: purple;
+.guitarras h2 {
+  font-size: 35px;
 }
 
-/*selector descendente*/
-
-article h3{
-  color: green;
+.portada {
+  /*background: rgba(12, 12, 12, 0.5);  rgb: color combinado de rojo, verde, azul.   rgba: color combinado con transparencia*/
+  background-image: url('../images/background.png');
+  color: white;     /*Todos los textos se les asigna el color*/
 }
 
-/*selectores de clase*/
-/*para los selectores de clase se usa el . al principio*/
-
-.title-a{
-  background: yellow;
-}
-
-.title-b{
-  background: salmon;
-}
-
-/*selector de id*/
-/*para los selectores de id se usa el # al principio*/
-
-#header{
-  border: 3px solid black;
-}
-
-#portada{
-  border: 3px solid orange;
-}
-
-#guitarras{
-  border: 3px solid brown;
+.menu {
+  font-size: 24px
 }
