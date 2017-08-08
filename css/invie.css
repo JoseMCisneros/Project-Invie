@@ -1,3 +1,20 @@
+*{                                        /*Modelo de caja a todos los elementos*/
+  /*width: tamaño; - ancho*/
+  /*height: tamaño; - alto*/
+  padding: 10px;
+  /*padding-top: 10px; - espacio interior arriba del contenido*/
+  /*padding-left: 15px; - espacio interior izquierda del contenido*/
+  /*padding-right: 13px; - espacio interior derecha del contenido*/
+  /*padding-bottom: 5px; - espacio interior abajo del contenido*/
+  /*padding: 10px 13px 5px 15px - arriba, derecha, abajo, izquierda*/
+  margin: 10px;
+  /*margin-top: 10px; - espacio exterior arriba del contenido*/
+  /*margin-left: 15px; - espacio exterior izquierda del contenido*/
+  /*margin-right: 13px; - espacio exterior derecha del contenido*/
+  /*margin-bottom: 5px; - espacio exterior abajo del contenido*/
+  /*margin: 10px 13px 5px 15px - arriba, derecha, abajo, izquierda*/
+  border: 2px solid red;
+}
 
 body {
   font-family: 'Allerta', sans-serif;       /*Google fonts*/
