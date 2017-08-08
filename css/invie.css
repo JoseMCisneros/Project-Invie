@@ -1,13 +1,10 @@
-/*Google fonts*/
-/*font-family: 'Montserrat', sans-serif;*/
-/*font-family: 'Allerta', sans-serif;*/
 
 body {
-  font-family: 'Allerta', sans-serif;
+  font-family: 'Allerta', sans-serif;       /*Google fonts*/
 }
 
 .titulo {
-  font-family: 'Montserrat', sans-serif;    /*Propiedad agregado al titulo*/
+  font-family: 'Montserrat', sans-serif;    /*Propiedad agregado al titulo*/      /*Google fonts*/
   font-size: 70px;
 }
 
@@ -33,6 +30,15 @@ body {
   color: white;     /*Todos los textos se les asigna el color*/
 }
 
-.menu {
-  font-size: 24px
+.menu {                     /*La propiedad inline-block nos permite alinear a la derecha y en bloques los elementos.*/
+  font-size: 24px;
+  display: inline-block;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.logotipo {
+  display: inline-block;
 }
