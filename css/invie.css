@@ -1,6 +1,13 @@
-/*Error en repositorio corregido*/
+/*Google fonts*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Allerta', sans-serif;*/
+
+body {
+  font-family: 'Allerta', sans-serif;
+}
 
 .titulo {
+  font-family: 'Montserrat', sans-serif;    /*Propiedad agregado al titulo*/
   font-size: 70px;
 }
 
@@ -16,6 +23,7 @@
 }
 
 .guitarras h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
 }
 
