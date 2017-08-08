@@ -1,39 +1,28 @@
-*{                                        /*Modelo de caja a todos los elementos*/
-  /*width: tamaño; - ancho*/
-  /*height: tamaño; - alto*/
-  padding: 10px;
-  /*padding-top: 10px; - espacio interior arriba del contenido*/
-  /*padding-left: 15px; - espacio interior izquierda del contenido*/
-  /*padding-right: 13px; - espacio interior derecha del contenido*/
-  /*padding-bottom: 5px; - espacio interior abajo del contenido*/
-  /*padding: 10px 13px 5px 15px - arriba, derecha, abajo, izquierda*/
-  margin: 10px;
-  /*margin-top: 10px; - espacio exterior arriba del contenido*/
-  /*margin-left: 15px; - espacio exterior izquierda del contenido*/
-  /*margin-right: 13px; - espacio exterior derecha del contenido*/
-  /*margin-bottom: 5px; - espacio exterior abajo del contenido*/
-  /*margin: 10px 13px 5px 15px - arriba, derecha, abajo, izquierda*/
-  border: 2px solid red;
-}
-
 body {
   font-family: 'Allerta', sans-serif;       /*Google fonts*/
+  margin: 0;
 }
 
 .titulo {
   font-family: 'Montserrat', sans-serif;    /*Propiedad agregado al titulo*/      /*Google fonts*/
   font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 70px;
 }
 
 .title-a {
   font-size: 24px;
+  margin-top: 0;
 }
 .title-b {
   font-size: 50px;
+  margin-bottom: 20px
 }
 
 .guitarras {
   color: #1F313C;
+  width: 800px;
+  margin: auto;
 }
 
 .guitarras h2 {
@@ -45,6 +34,13 @@ body {
   /*background: rgba(12, 12, 12, 0.5);  rgb: color combinado de rojo, verde, azul.   rgba: color combinado con transparencia*/
   background-image: url('../images/background.png');
   color: white;     /*Todos los textos se les asigna el color*/
+  padding: 20px;
+  width: 800px;
+  margin: auto;
+}
+
+.portada button {
+  margin-bottom: 70px;
 }
 
 .menu {                     /*La propiedad inline-block nos permite alinear a la derecha y en bloques los elementos.*/
@@ -54,8 +50,14 @@ body {
 
 .menu li {
   display: inline-block;
+  margin-left: 30px;
 }
 
 .logotipo {
   display: inline-block;
+}
+
+.header {
+  width: 800px;
+  margin: auto;
 }
