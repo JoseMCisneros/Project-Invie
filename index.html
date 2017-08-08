@@ -4,15 +4,10 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">  <!--Google fonts link-->
     <link rel="stylesheet" href="css/invie.css">  <!--Forma de incluir estilos en html con un archivo externo-->
-    <!--  Otra forma de incluir estilos en html
-    body{
-    background: red;
-  }
- -->
     <title>Invie - Tus mejores guitarras!!</title>
   </head>
   <body>
-    <header id="header" class="header"><!--header-->
+    <header id="header" class="header contenedor"><!--header-->
       <figure class="logotipo">
         <img src="images/invie.png" width="186" height="60" alt="Invie logotipo"/><!--logotipo-->
       </figure>
@@ -31,11 +26,13 @@
       </nav>
     </header>
     <section id="portada" class="portada"> <!--portada-->
-      <h1 class="titulo">Guitarras inviesibles</h1><!-- titulo -->
-      <h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3><!-- resumen -->
-      <button type="button" name="button">Conoce más</button><!-- boton -->
+      <div class="contenedor">
+        <h1 class="titulo">Guitarras inviesibles</h1><!-- titulo -->
+        <h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3><!-- resumen -->
+        <button type="button" name="button">Conoce más</button><!-- boton -->
+      </div>
     </section>
-    <section id="guitarras" class="guitarras"><!--guitarras-->
+    <section id="guitarras" class="guitarras contenedor"><!--guitarras-->   <!--Para incluir otra clase solo se separan por espacios-->
       <h2>Nuestras guitarras</h2><!-- titulo -->
       <article class="guitarra"><!-- guitarra 1 -->
         <img src="images/invie-acustica.png" alt="Guitarra Invie Acustica" width="200"/>
