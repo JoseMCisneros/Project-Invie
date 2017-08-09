@@ -42,6 +42,8 @@ body {
 .menu {                     /*La propiedad inline-block nos permite alinear a la derecha y en bloques los elementos.*/
   font-size: 24px;
   display: inline-block;
+  position: absolute;
+  right: 0;
 }
 
 .menu li {
@@ -61,7 +63,7 @@ body {
 .guitarra {
   margin: 10px
   padding: 10px;
-  overflow: hidden;
+  /*overflow: hidden;*/
   border: 1px solid #1F313C;
 }
 
@@ -71,10 +73,14 @@ body {
 
 .right {
   float: right;
+  position: relative;
+  bottom: 136px;
 }
 
 .left {
   float: left;
+  position: relative;
+  top: 80px;
 }
 
 .contenedor-guitarra-a {
@@ -83,4 +89,8 @@ body {
 
 .contenedor-guitarra-b {
   margin-left: 370px;
+}
+
+.header {
+  position: relative;
 }
