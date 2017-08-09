@@ -29,7 +29,7 @@
       <div class="contenedor">
         <h1 class="titulo">Guitarras inviesibles</h1><!-- titulo -->
         <h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3><!-- resumen -->
-        <button type="button" name="button">Conoce más</button><!-- boton -->
+        <button type="button" class="button">Conoce más</button><!-- boton -->
       </div>
     </section>
     <section id="guitarras" class="guitarras contenedor"><!--guitarras-->   <!--Para incluir otra clase solo se separan por espacios-->
@@ -65,36 +65,38 @@
           <a href="mailto:contacto@invie.com"><strong>Email</strong><span>contacto@invie.com</span></a>
         </div>
         <form class="formulario">                <!--Formulario-->
-          <label for="nombre">Nombre</label>    <!--El for debe de tener lo mismo que el id para tener una relacion y redireccione a donde de hacer focus -->
-          <input type="text" required id="nombre" name="nombre"/>   <!--placeholder pondra texto de fondo difuminado-->
-          <label for="email">E-mail</label>
-          <input type="email" required id="email" name="email"/>
-          <div class="sexo">
-            <label for="mujer">                            <!--Buena practica para la usabilidad mobil (selecciona el texto mujer y marcara la opcion)-->
-              <input type="radio" id="mujer" name="sexo"  value="Mujer"/>  Mujer      <!--TIpo radio multiple opcion-->
-            </label>
-            <label for="hombre">
-              <input type="radio" id="hombre" name="sexo" value="Hombre"/>  Hombre      <!--El name es para seleccionar uno solo lo cual manda al sevidor para que no tenga 2 opciones marcadas, esto hace que el tipo radio ya no no sea opcion multiple-->
-            </label>
+          <div class="col1">
+            <label for="nombre">Nombre</label>    <!--El for debe de tener lo mismo que el id para tener una relacion y redireccione a donde de hacer focus -->
+            <input type="text" required id="nombre" name="nombre"/>   <!--placeholder pondra texto de fondo difuminado-->
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">                            <!--Buena practica para la usabilidad mobil (selecciona el texto mujer y marcara la opcion)-->
+                <input type="radio" id="mujer"  checked name="sexo"  value="Mujer"/>  Mujer      <!--TIpo radio multiple opcion-->
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="Hombre"/>  Hombre      <!--El name es para seleccionar uno solo lo cual manda al sevidor para que no tenga 2 opciones marcadas, esto hace que el tipo radio ya no no sea opcion multiple-->
+              </label>
+            </div>
+            <div class="interes">                       <!--Caja de seleccion-->
+              <label for="cotizacion">
+                <input type="checkbox" id="cotizacion" checked name="interes"  value="cotizacion"/> Cotizacion   <!--El atributo name y value es la informacion que llega al sevidor cuando se envia el formulario-->
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos"  name="interes"  value="reclamos"/> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios"  name="interes" value="comentarios"/> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros"  name="interes" value="otros"/> Otros
+              </label>
+            </div>
           </div>
-          <div class="interes">                       <!--Caja de seleccion-->
-            <label for="cotizacion">
-              <input type="checkbox" id="cotizacion"  name="interes"  value="cotizacion"/> Cotizacion   <!--El atributo name y value es la informacion que llega al sevidor cuando se envia el formulario-->
-            </label>
-            <label for="reclamos">
-              <input type="checkbox" id="reclamos"  name="interes"  value="reclamos"/> Reclamos
-            </label>
-            <label for="comentarios">
-              <input type="checkbox" id="comentarios"  name="interes" value="comentarios"/> Comentarios
-            </label>
-            <label for="otros">
-              <input type="checkbox" id="otros"  name="interes" value="otros"/> Otros
-            </label>
-          </div>
-          <div class="">
-            <label for="comentarios">Comentarios</label>
-            <textarea name="comentarios" id="comentarios" rows="7" cols="30"></textarea>
-            <input type="submit"  value="Enviar">       <!--El atributo value hace que el sistema este en ingles o español el boton tendra el texto del atributo-->
+          <div class="col2">
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" rows="7" cols="30"></textarea>
+            <input type="submit"  value="Enviar"  class="button">       <!--El atributo value hace que el sistema este en ingles o español el boton tendra el texto del atributo-->
           </div>
         </form>                                 <!--Formulario-->
       </div>
