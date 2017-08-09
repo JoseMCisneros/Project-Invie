@@ -103,3 +103,22 @@ button {                /*Bordes redondeados*/
 .header {
   position: relative;
 }
+
+
+
+.footer {                     /*Footer*/
+  background: #273b47
+}
+
+.contacto img {               /*Footer*/
+  display: block;
+}
+
+.contacto strong {            /*Footer*/
+  display: block;
+}
+
+.contacto a {                 /*Footer*/
+  color: white;
+  text-decoration: none;
+}
