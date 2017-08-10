@@ -74,6 +74,7 @@ input:focus, textarea:focus {
 .title-b {
   font-size: 50px;
   margin-bottom: 20px;
+  margin-top: 35px;
 }
 
 .guitarras {
@@ -144,7 +145,7 @@ input:focus, textarea:focus {
 .right {
   float: right;
   position: relative;
-  bottom: 127px;
+  bottom: 142px;
 }
 
 .left {
@@ -159,11 +160,15 @@ input:focus, textarea:focus {
 .contenedor-guitarra-b {
   margin-left: 370px;
   position: relative;
-  bottom: 90px;
+  bottom: 67px;
 }
 
 .header {
   position: relative;
+}
+
+.header-b {
+  padding: 20px;
 }
 
 .footer {                     /*Footer*/
@@ -180,6 +185,7 @@ input:focus, textarea:focus {
 
 .contacto img {               /*Footer*/
   display: block;
+  margin-bottom: 10px;
 }
 
 .contacto strong {            /*Footer*/
@@ -194,13 +200,14 @@ input:focus, textarea:focus {
 
 .footer .contenedor {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .formulario {
   display: flex;
   width: 400px;
   color: white;
+  margin-right: 20px;
 }
 
 .col1, .col2 {
