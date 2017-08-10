@@ -7,29 +7,29 @@
     <title>Invie - Tus mejores guitarras!!</title>
   </head>
   <body>
-    <header id="header" class="header contenedor"><!--header-->
-      <figure class="logotipo">
-        <img src="images/invie.png" width="186" height="60" alt="Invie logotipo"/><!--logotipo-->
-      </figure>
-      <nav  class="menu"><!--menu-->
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="#guitarras">Guitarras</a>
-          </li>
-          <li>
-            <a href="precios.html">Precios</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section id="portada" class="portada"> <!--portada-->
+    <section id="portada" class="portada background"> <!--portada-->
+      <header id="header" class="header contenedor"><!--header-->
+        <figure class="logotipo">
+          <img src="images/invie.png" width="186" height="60" alt="Invie logotipo"/><!--logotipo-->
+        </figure>
+        <nav  class="menu"><!--menu-->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#guitarras">Guitarras</a>
+            </li>
+            <li>
+              <a href="precios.html">Precios</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <div class="contenedor">
-        <h1 class="titulo">Guitarras inviesibles</h1><!-- titulo -->
+        <h1 class="titulo">Guitarras <span>invie</span>sibles</h1><!-- titulo -->
         <h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3><!-- resumen -->
-        <button type="button" class="button">Conoce más</button><!-- boton -->
+        <a class="button" href="#guitarras">Conoce más</a><!-- boton -->
       </div>
     </section>
     <section id="guitarras" class="guitarras contenedor"><!--guitarras-->   <!--Para incluir otra clase solo se separan por espacios-->
@@ -45,7 +45,7 @@
           </ol>
         </div>
       </article>
-      <article class="guitarra"><!-- guitarra 2 -->
+      <article class="guitarra b"><!-- guitarra 2 -->
         <img class="left" src="images/invie-classic.png" alt="Guitarra Invie Classic" width="350"/>
         <div class="contenedor-guitarra-b">
           <h3 class="title-b">Invie Classic</h3>
@@ -65,7 +65,7 @@
           <a href="mailto:contacto@invie.com"><strong>Email</strong><span>contacto@invie.com</span></a>
         </div>
         <form class="formulario">                <!--Formulario-->
-          <div class="col1">
+          <div class="col1 contenedor">
             <label for="nombre">Nombre</label>    <!--El for debe de tener lo mismo que el id para tener una relacion y redireccione a donde de hacer focus -->
             <input type="text" required id="nombre" name="nombre"/>   <!--placeholder pondra texto de fondo difuminado-->
             <label for="email">E-mail</label>
