@@ -165,3 +165,25 @@ body {
 .sexo {
   margin-top: 10px;
 }
+
+table{                /*Estilos de tabla*/
+  width: 100%;
+}
+
+th {
+  background: #273b47;
+  color: white;
+}
+
+td {
+  padding: 20px;
+}
+th {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+table, td, th {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
